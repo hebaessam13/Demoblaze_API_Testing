@@ -1,0 +1,34 @@
+INFO     root:users.py:13 logining with user : keirahahe
+INFO     root:api.py:12 making a POST request to endpoint https://api.demoblaze.com/login
+INFO     root:users.py:13 logining with user : keirahahe
+INFO     root:api.py:12 making a POST request to endpoint https://api.demoblaze.com/login
+INFO     root:users.py:13 logining with user : keira
+INFO     root:api.py:12 making a POST request to endpoint https://api.demoblaze.com/login
+INFO     root:users.py:13 logining with user : thisauserthatdoesntexist
+INFO     root:api.py:12 making a POST request to endpoint https://api.demoblaze.com/login
+INFO     root:users.py:13 logining with user : 
+INFO     root:api.py:12 making a POST request to endpoint https://api.demoblaze.com/login
+INFO     root:users.py:13 logining with user : thisauserthatdoesntexist
+INFO     root:api.py:12 making a POST request to endpoint https://api.demoblaze.com/login
+INFO     root:api.py:12 making a PUT request to endpoint https://api.demoblaze.com/login
+INFO     root:api.py:12 making a PATCH request to endpoint https://api.demoblaze.com/login
+INFO     root:api.py:12 making a GET request to endpoint https://api.demoblaze.com/login
+INFO     root:api.py:12 making a DELETE request to endpoint https://api.demoblaze.com/login
+INFO     root:users.py:7 Creating account for user : keirahahe
+INFO     root:api.py:12 making a POST request to endpoint https://api.demoblaze.com/signup
+INFO     root:users.py:7 Creating account for user : 
+INFO     root:api.py:12 making a POST request to endpoint https://api.demoblaze.com/signup
+INFO     root:users.py:7 Creating account for user : keirahahe
+INFO     root:api.py:12 making a POST request to endpoint https://api.demoblaze.com/signup
+INFO     root:users.py:7 Creating account for user : 15namestartwithnum
+INFO     root:api.py:12 making a POST request to endpoint https://api.demoblaze.com/signup
+INFO     root:users.py:7 Creating account for user : randomusername
+INFO     root:api.py:12 making a POST request to endpoint https://api.demoblaze.com/signup
+INFO     root:users.py:7 Creating account for user : username with space
+INFO     root:api.py:12 making a POST request to endpoint https://api.demoblaze.com/signup
+INFO     root:users.py:7 Creating account for user : wqrfcap984
+INFO     root:api.py:12 making a POST request to endpoint https://api.demoblaze.com/signup
+INFO     root:api.py:12 making a PUT request to endpoint https://api.demoblaze.com/signup
+INFO     root:api.py:12 making a PATCH request to endpoint https://api.demoblaze.com/signup
+INFO     root:api.py:12 making a GET request to endpoint https://api.demoblaze.com/signup
+INFO     root:api.py:12 making a DELETE request to endpoint https://api.demoblaze.com/signup
