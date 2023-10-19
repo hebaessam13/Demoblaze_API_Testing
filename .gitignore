@@ -1,0 +1,5 @@
+/reports/
+/logs/
+/.pytest_cache/
+/.idea
+
