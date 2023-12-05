@@ -1,4 +1,4 @@
-# DEMOBLAZE API Automation Framework
+# DEMOBLAZE API Automation Framework with Python
 #
 
 ## SETUP
