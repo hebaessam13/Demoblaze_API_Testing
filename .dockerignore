@@ -1,0 +1,7 @@
+.gitignore
+Dockerfile
+/.idea
+/pytest_cache
+**/__pycache__
+README.md
+/virtualenv

@@ -8,11 +8,11 @@
 ### Create Virtual environment
 - create a virtual environment named env
 ```commandline
- python -m venv env
+ python -m venv vierualenv
 ```
 - activate environment
 ```commandline
-.\env\Scripts\activate
+.\virtualenv\Scripts\activate
 ```
 ### Install required packages
 ```commandline
@@ -27,6 +27,27 @@ python -m pytest -m marker
 ```commandline
 python -m pytest 
 ```
+### Using Docker
+- to build image after changes
+```commandline
+docker build . -t imageName:version
+ex: docker build  . -t demoblaze:latest 
+```
+- to run all tests
+```commandline
+docker run demoblaze:latest
+```
+- to run tests with markers
+```commandline
+docker run -e MARKER=login demoblaze:latest
+```
+
+- to extract reports and logs from container
+```commandline
+docker cp containerID:usr/src/reports ./desiredlocation
+docker cp containerID:usr/src/logs ./desiredlocation
+```
+
 #
 #
 ## Project Structure
