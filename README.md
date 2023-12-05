@@ -8,7 +8,7 @@
 ### Create Virtual environment
 - create a virtual environment named env
 ```commandline
- python -m venv vierualenv
+ python -m venv virtualenv
 ```
 - activate environment
 ```commandline
