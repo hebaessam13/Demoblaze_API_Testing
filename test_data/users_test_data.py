@@ -5,8 +5,7 @@ SIGNUP_TEST_DATA = [('keirahahe', '123', 400, 'This user already exist.'),
                     ('keirahahe', '', 400, 'password is mandatory'),
                     ('15namestartwithnum', '123', 400, 'invalid username'),
                     ('randomusername', '1', 400, 'password length should be >1 '),
-                    ('username with space', '12345', 400, 'username cant have spaces'),
-                    (data_generator.generate_string(10), data_generator.generate_string(10), 200, '')]
+                    ('username with space', '12345', 400, 'username cant have spaces')]
 
 LOGIN_TEST_DATA = [('keirahahe', '123', 200, ''),
                    ('keirahahe', 'xyz', 401, 'Wrong user name or password'),

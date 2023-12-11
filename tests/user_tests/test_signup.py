@@ -8,10 +8,16 @@ class TestSignUp:
 
     @pytest.mark.signup
     @pytest.mark.parametrize('username,password, exp_status_code, expected_msg', users_test_data.SIGNUP_TEST_DATA)
-    def test_signup(self, username, password, exp_status_code, expected_msg):
+    def test_signup_with_invalid_data(self, username, password, exp_status_code, expected_msg):
         response = users.signup_with(username, password)
         assert response.status_code == exp_status_code
         assert expected_msg is str(response.json())
+
+    @pytest.mark.signup
+    def test_signup_with_valid_data(self):
+        username, password=data_generator.generate_user_creds()
+        response = users.signup_with(username, password)
+        assert response.status_code == 200
 
     @pytest.mark.parametrize('method', users_test_data.INVALID_API_METHODS)
     def test_signup_api_with_invalid_methods(self, method):

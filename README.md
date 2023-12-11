@@ -26,6 +26,10 @@ python -m pytest -m marker
 - to run all tests
 ```commandline
 python -m pytest 
+``````
+- to run tests in parallel add -n where n is the number of workers
+```commandline
+python -m pytest -n workers-num
 ```
 ### Using Docker
 - to build image after changes
